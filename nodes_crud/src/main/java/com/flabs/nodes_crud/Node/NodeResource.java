@@ -63,4 +63,6 @@ public class NodeResource {
             .toUri();
         return ResponseEntity.created(location).build();
     }
+
+    //TODO: Create PUT endpoint for nodes edition
 }
