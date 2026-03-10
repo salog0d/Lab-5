@@ -40,8 +40,6 @@ public class Node {
     private float positionX;
     private float positionY;
     private int sequence;
-    
-    @NotNull
     private boolean is_active;
 
     @CreationTimestamp

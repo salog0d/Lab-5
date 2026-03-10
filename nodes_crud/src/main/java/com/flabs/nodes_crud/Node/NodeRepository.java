@@ -1,9 +1,7 @@
 package com.flabs.nodes_crud.Node;
 
-import org.springframework.stereotype.Repository;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-@Repository
-public class NodeRepository {
-    
+public interface NodeRepository extends JpaRepository<Node, Integer>{
 
 }
